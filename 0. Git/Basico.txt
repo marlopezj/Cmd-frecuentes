@@ -1,0 +1,62 @@
+<Comandos Basicos>
+
+    Configuracion de usario
+        git config --global user.name "Martin Lopez"
+        git config --global user.email mar.lopezj@duocuc.cl
+        git config --global core.editor "code --wait"
+        git config --global -e
+            <revisar la configuracion>
+        git config --global core.autocrlf input
+            <no me acuerdo XD>
+
+    Enlazar un directorio
+        git init
+            <en el directorio en el que estes>
+        code .
+            <abre vsc este archivo>
+
+    Controles basicos 
+        git status
+            <te dice el estado del repositorio y las modificaciones>
+        git status -s
+            <lo hace simple>
+        git diff
+            <te muestra cuales son las diferencias>
+        git log --oneline
+        
+        git add archivo.txt archivo2.txt
+            <agrega cambios a archivos a la fase de stage>
+        git rm archivo.txt
+            <remueve un archivo>
+        git restore  archivo.txt
+            <restaura un archivo eliminado>
+        git mv nombreviejo.txt nuevonombre.txt
+            <cambia el nombre de archivo>
+        
+        git commit -m "frase"
+            <paso lo de la stage a la siguiente fase>
+
+    No subir ciertos archivos
+        Crear un archivo llamado .gitignore y subir los nombres de archivos o carpetas por ignorar
+            archivo.txt
+            /directorio
+    
+    Control de Branch
+        git branch
+            <te permite ver la rama en la que estas y cambiar de rama>
+
+        git checkout rama
+            <Te permite cambiar de rama
+        git checkout -b ramab
+            <Te permite crear una nueva rama>
+        
+        git merge ramab
+            <te permite convinar lo que hiciste en la rama que llamas con la rama en la que estas
+    
+    Subirlo al servidor
+        git remote add origin https://github.com/blabla/repositorio.git
+            <enlaza tu repositorio local con el en linea>
+        git push -u origin rama
+            <te permite subir la rama indicada al repositorio>
+            <luego pregunta tu nombre de usuario y tu token password>
+        git 

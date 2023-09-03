@@ -1,0 +1,49 @@
+-COMANDO BASICOS- 
+-La estructura es <comando parametro>
+    pwd //muestra el directorio actual//
+
+    cd //te mueve de carpeta//
+        cd carpeta
+        cd ..
+        cd /home/usuario/archivo.html
+
+    ls //enumera el contenido de un directorio//
+        ls -a 
+            <enumera todos los archivos>
+        ls -l 
+            <lista en formato largo> 
+            
+    cp //copia//
+        cp foto.jpg public_html/imagenes/
+            <comando archivo_og archivo-copia>
+
+    mv //mover y renombra//
+        mv foto.jpg nombrecambiado.jpg
+            <renombrado>
+        mv foto.jpg carpeta/imagenes2/
+            <mueve>
+        
+    mkdir //Crea carpetas//
+        mkdir 
+            <crea una carpeta nueva en esa locacion>
+        mkdir /home/imagenes
+            <crea una carpeta en esa locacion>
+
+    locate //encuentra un archivo//
+        locate archivo.txt
+
+    rm //elimina archivos//
+        rm imagen.jpg 
+            <elmina archivo>
+        rm -r carpeta 
+            <elimina todos los archivos de una carpeta>
+        rm -formato
+            <elimina la carpeta>
+        rmdir carpetas
+            <Elimina archivos vacios>
+    
+    dig //consulta registro DNS de dominios//
+        dig apple.com
+
+    mas comandos
+    //https://www.dongee.com/tutoriales/comandos-basicos-de-linux/?utm_source=google&utm_medium=cpc&utm_campaign=tutoriales&utm_id=tutoriales&utm_term=comandos-linux&tm=tt&ap=gads&aaid=adaFnZvkSdpvp&gclid=CjwKCAjw3dCnBhBCEiwAVvLcuwHeZhh2yHmsO_X0HfsCVIPLp0wg9HLwX_YDW15b88x-faMp70fUkRoCH8gQAvD_BwE//
